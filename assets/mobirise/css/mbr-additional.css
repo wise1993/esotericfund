@@ -519,7 +519,7 @@ a.text-white.active {
 a.text-black:hover,
 a.text-black:focus,
 a.text-black.active {
-  color: #58c37f !important;
+  color: #ad9191 !important;
 }
 a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption) {
   transition: 0.2s;
@@ -862,7 +862,7 @@ a {
 }
 .cid-s48OLK6784 .nav-dropdown .link {
   padding: 0 0.3em !important;
-  margin: .667em 1em !important;
+  margin: -0.667em 1em !important;
 }
 .cid-s48OLK6784 .nav-dropdown .link.dropdown-toggle::after {
   margin-left: 0.5rem;
@@ -887,6 +887,14 @@ a {
 .cid-s48OLK6784 .navbar.opened {
   background: #ffffff !important;
 }
+.nav-item:hover {
+  background:#141414b5
+}
+/* .nav-item {
+  border-left: 2px solid #141414b5;
+} */
+
+.ci
 .cid-s48OLK6784 .nav-item:focus,
 .cid-s48OLK6784 .nav-link:focus {
   outline: none;
