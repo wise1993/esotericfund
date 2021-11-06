@@ -6,7 +6,7 @@ body {
 }
 .display-1 {
   font-family: 'Jost', sans-serif;
-  font-size: 4.6rem;
+  font-size: 2.5rem;
   line-height: 1.1;
 }
 .display-1 > .mbr-iconfont {
@@ -40,6 +40,7 @@ body {
   font-family: 'Jost', sans-serif;
   font-size: 1.2rem;
   line-height: 1.5;
+  margin-bottom: 0px !important;
 }
 .display-7 > .mbr-iconfont {
   font-size: 1.5rem;
@@ -857,8 +858,9 @@ a {
 }
 .cid-s48OLK6784 .dropdown-item:hover,
 .cid-s48OLK6784 .dropdown-item:focus {
-  background: #353535 !important;
-  color: white !important;
+  /* background: #353535 !important;
+  color: white !important; */
+  border-bottom: 3px solid #ad9191;
 }
 .cid-s48OLK6784 .nav-dropdown .link {
   padding: 0 0.3em !important;
@@ -888,7 +890,7 @@ a {
   background: #ffffff !important;
 }
 .nav-item:hover {
-  background:#141414b5
+  border-bottom: 3px solid #ad9191
 }
 /* .nav-item {
   border-left: 2px solid #141414b5;
@@ -1256,7 +1258,7 @@ a {
 .cid-sLg81Jxu60 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #fafafa;
+  background-color: #ededed
 }
 .cid-sLg81Jxu60 .row-links {
   width: 100%;
@@ -2615,8 +2617,8 @@ a {
 }
 .cid-sLg81Jxu60 {
   padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: #fafafa;
+  padding-bottom: 0rem;
+  background-color: #ededed;
 }
 .cid-sLg81Jxu60 .row-links {
   width: 100%;
@@ -2624,7 +2626,15 @@ a {
 }
 .cid-sLg81Jxu60 .social-row {
   width: 100%;
-  justify-content: center;
+  justify-content: end;
+  float: right
+}
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  .cid-sLg81Jxu60 .social-row {
+    justify-content: flex-start;
+    float: inherit;
+    margin-top: 1em;
+  }
 }
 .cid-sLg81Jxu60 .media-container-row {
   flex-direction: column;
@@ -2681,6 +2691,7 @@ a {
 }
 .cid-sLg81Jxu60 .media-container-row .row-copirayt p {
   width: 100%;
+  text-align: left;
 }
 .cid-sLg81Jxu60 .media-container-row .mbr-text {
   color: #615e5e;
@@ -4116,11 +4127,11 @@ a {
 .cid-sNeSBFFobK {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-image: url("../../../assets/images/ntr-chart-700x410.png");
+  background-image: url("../../../assets/images/transparent-bg.jpeg");
 }
 .cid-sNeSBG4M0s {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   background-color: #ffffff;
 }
 @media (max-width: 991px) {
