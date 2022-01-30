@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -45,6 +44,7 @@
         }
 
         input[type=text],
+        input[type=email],
         input[type=submit] {
             width: 100%;
             padding: 12px;
@@ -149,14 +149,19 @@
             <div class="row align-items-center">
                 <div class="col-12 col-lg">
                     <div class="text-wrapper">
-                        <form action="/action_page.php">
+                        <!-- Un-comment if you want to use the Formspree mailprovider -->
+                        <!-- <form action="https://formspree.io/f/mpzbpqjw" method="POST"> -->
+
+                        <form action="https://formcarry.com/s/Bvi35Jr7CKh" method="POST" accept-charset="UTF-8">
                             <h3 class="mbr-section-title mbr-fonts-style mb-3 display-7"><strong>Subscribe To Our
                                     Newsletter</strong></h3>
                             <p class="mbr-text mbr-fonts-style display-4">Join our subscribers list to get latest news,
                                 updates and special offers delivered direcrly into your inbox</p>
                             <div class="inputContainer">
                                 <input type="text" placeholder="Name" name="name" required>
-                                <input type="text" placeholder="Email address" name="mail" required>
+                                <input type="email" name="email" placeholder="Email address" required> 
+                                <!-- Use this name="_replyto" when you uncomment Formspree mailprovider -->
+                                <input type="hidden" name="_gotcha"><!-- use this to prevent spam -->
                             </div>
 
                             <div class="inputContainerBtn">
