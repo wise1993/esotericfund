@@ -66,6 +66,10 @@ body {
   width: 80%
 }
 
+.faq-txt {
+  color: rgb(191 24 115);
+}
+
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
 /* 100vw - current viewport width */
@@ -506,7 +510,7 @@ body {
 a.text-primary:hover,
 a.text-primary:focus,
 a.text-primary.active {
-  color: #020202 !important;
+  color: #ad9191 !important;
 }
 a.text-secondary:hover,
 a.text-secondary:focus,
@@ -757,6 +761,17 @@ a {
 }
 .cid-sLfJjREbl7 .item-wrapper {
   width: 100%;
+}
+
+.parallax {
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 @media (max-width: 767px) {
   .cid-sLfJjREbl7 .container .carousel-control {
@@ -1349,8 +1364,8 @@ a {
   color: #615e5e;
 }
 .cid-sLgaLqK8zF {
-  padding-top: 7rem;
-  padding-bottom: 9rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   background-image: url("../../../assets/images/mbr-1-1900x1267.jpg");
 }
 .cid-sLgaLqK8zF .social-row .soc-item {
@@ -2652,9 +2667,12 @@ a {
 }
 @media screen and (min-width: 320px) and (max-width: 720px) {
   .cid-sLg81Jxu60 .social-row {
-    justify-content: flex-start;
+    justify-content: center;
     float: inherit;
     margin-top: 1em;
+  }
+  .row-copirayt p {
+    text-align: center !important
   }
 }
 .cid-sLg81Jxu60 .media-container-row {
