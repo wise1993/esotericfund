@@ -746,6 +746,7 @@ a {
   object-fit: cover;
 }
 .cid-sLfJjREbl7 .carousel-caption {
+  top:19rem;
   bottom: 40px;
 }
 .cid-sLfJjREbl7 .mobi-mbri-arrow-next {
@@ -3167,13 +3168,13 @@ a {
   color: #615e5e;
 }
 .cid-sLgDRMiOJN {
-  padding-top: 7rem;
-  padding-bottom: 5rem;
-  background-image: url("../../../assets/images/ntr-chart-700x410.png");
+  padding-top: 4rem;
+  padding-bottom: 0rem;
+  /* background-image: url("../../../assets/images/ntr-chart-700x410.png"); */
 }
 .cid-sLgDRNiBRj {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 @media (max-width: 991px) {
@@ -3638,9 +3639,13 @@ a {
   color: #ffffff;
   margin-bottom: 2rem;
 }
+
+.watch-txt {
+  color: rgb(191 24 115);
+}
 .cid-sLgJrAwOIJ .card {
   margin: auto;
-  min-height: 280px;
+  min-height: auto;
   transition: all 0.3s;
 }
 .cid-sLgJrAwOIJ .card-wrapper {
