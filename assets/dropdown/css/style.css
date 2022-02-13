@@ -76,7 +76,12 @@
 .nav-dropdown {
   font-size: 0.75rem;
   font-weight: 500;
-  height: auto !important; }
+}
+@media screen and (min-width:320px) and (max-width:760px){
+  .nav-dropdown {
+    height: 32vh;
+  }
+}
   .nav-dropdown .nav-btn {
     padding-left: 1rem; }
   .nav-dropdown .link {

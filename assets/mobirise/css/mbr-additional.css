@@ -745,8 +745,28 @@ a {
   height: 100vh;
   object-fit: cover;
 }
+@media screen and (min-width: 320px) and (max-width: 760px) {
+  .mbr-fullscreen {
+    min-height: 70vh;
+  }
+  .cid-sLfJjREbl7 .carousel-item img {
+    height: 70vh;
+  }
+  .cid-sLfJjREbl7 .carousel-caption {
+    top: 10rem !important;
+    bottom: 10rem !important;
+  }
+  .cid-sLfJjREbl7 H5 {
+    font-size: 2.5rem;
+  }
+  .cid-sLfJjREbl7 .carousel-control {
+    width: 45px !important;
+    height: 45px !important;
+  }
+}
+
 .cid-sLfJjREbl7 .carousel-caption {
-  top:19rem;
+  top:22rem;
   bottom: 40px;
 }
 .cid-sLfJjREbl7 .mobi-mbri-arrow-next {

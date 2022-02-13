@@ -554,7 +554,7 @@ nav .mbr-section-btn {
     display: -webkit-flex !important;
   }
   .menu .collapsed .navbar-collapse {
-    max-height: 93.5vh;
+    max-height: 94vh;
   }
   .menu .collapsed .navbar-collapse.show {
     overflow: auto;
@@ -562,7 +562,7 @@ nav .mbr-section-btn {
 }
 @media (max-width: 767px) {
   .menu .navbar-collapse {
-    max-height: 80vh;
+    max-height: 94vh;
   }
 }
 
